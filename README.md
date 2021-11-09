@@ -5,7 +5,8 @@
 ### Author: Rami zaitoun
 
 ### Links and Resources
-
+![LOcalHostTest](https://github.com/MasteRminD6666/auth-api/blob/main/local%20test.gif?raw=true)
+### Pull_request : [PR](https://github.com/MasteRminD6666/auth-api/pull/1)
 
 ### Setup
 
