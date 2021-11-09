@@ -7,6 +7,8 @@ const router = express.Router();
 
 router.param('model', (req, res, next) => {
   const modelName = req.params.model;
+  console.log('from here',req.params.model);
+  console.log('data models',dataModules);
   if (dataModules[modelName]) {
     req.model = dataModules[modelName];
     next();
@@ -33,8 +35,10 @@ async function handleGetOne(req, res) {
 }
 
 async function handleCreate(req, res) {
+  console.log('im here fuckeerrr');
   let obj = req.body;
   let newRecord = await req.model.create(obj);
+  console.log('this is the modlename',modelName);
   res.status(201).json(newRecord);
 }
 
