@@ -44,4 +44,4 @@ i.e.
 
 
 ![lab8](https://github.com/MasteRminD6666/auth-api/blob/dev/lab8.png?raw=true)
-![lab7](https://github.com/MasteRminD6666/auth-api/blob/dev/lab7.png?raw=true)
+![lab7](https://github.com/MasteRminD6666/auth-api/raw/dev/lab7.png?raw=true)
