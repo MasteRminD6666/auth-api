@@ -6,7 +6,10 @@
 
 ### Links and Resources
 
-### Eror with heroku deplyment here is the test part you can see the admin privilage 
+### Heroku deplyment here
+[Heroku](https://ramiapi.herokuapp.com)
+----
+
 ![LOcalHostTest](https://github.com/MasteRminD6666/auth-api/blob/main/local%20test.gif?raw=true)
 ### Pull_request : [PR](https://github.com/MasteRminD6666/auth-api/pull/1)
 
