@@ -17,7 +17,7 @@
 i.e.
 
 - `PORT` - 3001
-- `MONGODB_URI` -
+- `PostgreSQL` -
 - `base-64": "^1.0.0"`
 - `bcrypt": "^5.0.1"`
 - `cors: "^2.8.5"`
