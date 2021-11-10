@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const dataModules = require('../models');
+const dataModules = require('../models/index.js');
 
 const router = express.Router();
 
@@ -38,7 +38,6 @@ async function handleCreate(req, res) {
   console.log('im here fuckeerrr');
   let obj = req.body;
   let newRecord = await req.model.create(obj);
-  console.log('this is the modlename',modelName);
   res.status(201).json(newRecord);
 }
 
